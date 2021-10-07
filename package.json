@@ -1,0 +1,29 @@
+{
+  "name": "Soccer-Analysis",
+  "version": "1.0.0",
+  "description": "Gives a report from soccer / football teams using Typescript",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaimyoDev/Soccer-Analysis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaimyoDev/Soccer-Analysis/issues"
+  },
+  "homepage": "https://github.com/DaimyoDev/Soccer-Analysis#readme",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3"
+  }
+}
